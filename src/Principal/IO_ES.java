@@ -8,13 +8,16 @@ package Principal;
 import java.util.Scanner;
 
 /**
- *
+ * @version 1.0
  * @author Francisco Marcos Sanchez
  */
 public class IO_ES {
     IO_ES(){
         
     }
+    /*
+    *Metodo para leer un numero entero
+    */
     public static int leerInteger(){
        boolean flag;
        int a=0;
@@ -34,6 +37,9 @@ public class IO_ES {
         while(flag==false);
         return a;
     }
+    /*
+    *Metodo para leer un numero entero con un mensaje proporcionado
+    */
     public static int leerInteger(String mensaje){
        boolean flag;
        int a=0;
@@ -53,6 +59,9 @@ public class IO_ES {
         while(flag==false);
        return a;
     }
+    /*
+    *Metodo para leer un entero con mensaje proporcionado y valor minimo
+    */
     public static int leerInteger(String mensaje, int min){
        boolean flag;
        int a=0;
@@ -77,7 +86,9 @@ public class IO_ES {
         while(flag==false);
         return a;
     }
-    
+    /*
+    *Metodo para leer un etero con mensaje proporcionado y valor minimo y maximo
+    */
     public static int leerInteger(String mensaje, int min, int max){
        boolean flag;
        int a=0;
@@ -102,6 +113,9 @@ public class IO_ES {
         while(flag==false);
         return a;
     } 
+    /*
+    *Metodo para leer un long
+    */
     public static long  leerIntegerLargo(){
        boolean flag;
        long c=0;
@@ -119,7 +133,9 @@ public class IO_ES {
        while(flag==false);
        return c;
     }
-    
+    /*
+    *Metodo para leer un long con mensaje proporcionado
+    */
     public static long  leerIntegerLargo(String mensaje){
        boolean flag;
        long c=0;
@@ -137,7 +153,9 @@ public class IO_ES {
        while(flag==false);
        return c;
     }
-    
+    /*
+    *Metodo para leer un float
+    */
     public static float leerReal(){
        boolean flag;
        float b=0;
@@ -156,7 +174,9 @@ public class IO_ES {
        while(flag==false);
        return b;
     }
-    
+    /*
+    *Metodo para leer un float con mensaje proporcionado 
+    */
     public static float leerReal(String mensaje){
        boolean flag;
        float b=0;
@@ -175,6 +195,9 @@ public class IO_ES {
        while(flag==false);
        return b;
     }
+    /*
+    *Metodo para leer un float con mensaje proporcionado y valor minimo 
+    */
     public static float leerReal(String mensaje, int min){
        boolean flag;
        float b=0;
@@ -199,6 +222,9 @@ public class IO_ES {
        while(flag==false);
        return b;
     }
+    /*
+    *Metodo para leer un double
+    */
     public static double  leerRealLargo(){
        boolean flag;
        double d=0;
@@ -216,6 +242,9 @@ public class IO_ES {
        while(flag==false);
        return d;
     }
+    /*
+    *Metodo para leer un double con mensaje proporcionado 
+    */
     public static double  leerRealLargo(String mensaje){
        boolean flag;
        double d=0;
@@ -233,6 +262,9 @@ public class IO_ES {
        while(flag==false);
        return d;
     }
+    /*
+    *Metodo para leer un String
+    */
     public static String  leerCadena(){
        String e="";
       
@@ -242,6 +274,9 @@ public class IO_ES {
            e=tcl.nextLine();
        return e;
     }
+    /*
+    *Metodo para leer un String con mensaje proporcionado
+    */
     public static String  leerCadena(String mensaje){
        boolean flag;
        String e="";
@@ -256,6 +291,9 @@ public class IO_ES {
        while(flag==false);
        return e;
     }
+    /*
+    *Metodo para leer un String con mensaje proporcionado y valor exacto
+    */
     public static String  leerCadena(String mensaje, int longitud){
        boolean flag=false;
        String e="";
@@ -273,6 +311,9 @@ public class IO_ES {
        while(flag==false);
        return e;
     }
+    /*
+    *Metodo para leer un char
+    */
     public static char leerCaracter(){
        boolean flag=false;
        char e = 0;
@@ -298,6 +339,9 @@ public class IO_ES {
        while(flag==false);
        return e;
     }
+    /*
+    *Metodo para leer un char con mensaje proporcionado
+    */
     public static char  leerCaracter(String mensaje){
        boolean flag=false;
        char e = 0;
@@ -324,6 +368,9 @@ public class IO_ES {
        while(flag==false);
        return e;
     }
+    /*
+    *Metodo para leer un boolean
+    */
     public static boolean leerBoolean(){
        boolean flag=false;
        boolean e=false;
@@ -356,6 +403,9 @@ public class IO_ES {
        while(flag==false);
        return e;
     }
+    /*
+    *Metodo para leer un boolean con mensaje proporcionado
+    */
     public static boolean leerBoolean(String mensaje){
        boolean flag=false;
        boolean e=false;
